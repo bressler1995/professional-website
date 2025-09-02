@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header/Header.jsx';
 import PageContent from '../components/PageContent/PageContent.jsx';
+import UIHolder from '../components/UIHolder/UIHolder.jsx';
 ---
 
 <!doctype html>
@@ -13,10 +14,12 @@ import PageContent from '../components/PageContent/PageContent.jsx';
 		<title>Brian Ressler's Professional Website</title>
 	</head>
 	<body>
-		<Header />
-		<PageContent>
-			<slot />
-		</PageContent>
+		<UIHolder>
+			<Header />
+			<PageContent>
+				<slot />
+			</PageContent>
+		</UIHolder>
 	</body>
 </html>
 
