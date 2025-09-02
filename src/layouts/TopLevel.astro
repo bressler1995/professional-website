@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header/Header.jsx';
+import PageContent from '../components/PageContent/PageContent.jsx';
 ---
 
 <!doctype html>
@@ -13,7 +14,9 @@ import Header from '../components/Header/Header.jsx';
 	</head>
 	<body>
 		<Header />
-		<slot />
+		<PageContent>
+			<slot />
+		</PageContent>
 	</body>
 </html>
 
@@ -23,5 +26,6 @@ import Header from '../components/Header/Header.jsx';
 		margin: 0;
 		width: 100%;
 		height: 100%;
+		overflow-x: hidden;
 	}
 </style>
