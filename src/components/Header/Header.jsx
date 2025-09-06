@@ -1,6 +1,6 @@
 import './Header.css';
 
-const Header = () => {
+function Header() {
     return (
         <div className="eccent_header">
             <ul>
@@ -9,7 +9,7 @@ const Header = () => {
                 <li key="nav-three">Contact</li>
             </ul>
         </div>
-    )
+    );
 }
 
 export default Header;
