@@ -1,6 +1,40 @@
 @import "tailwindcss";
 
 @theme {
-    --color-global-bg: #111111;
-    --color-sidebar-bg: #EEEEEE;
+    --color-global-bg: #390099;
+    --color-content-bg: #0C0A11;
+    --color-gradient-start: #390099;
+    --color-gradient-mid: #5A189A;
+    --color-gradient-accent: #7B2CBF;
+    --color-gradient-end: #10081D;
 }
+
+@layer base {
+    h1 {
+      @apply text-[54px]/[58px] text-white mb-2;
+    }
+
+    h2 {
+      @apply text-[42px]/[46px] text-white mb-2;
+    }
+
+    h3 {
+      @apply text-[32px]/[36px] text-white mb-2;
+    }
+
+    h4 {
+      @apply text-[24px]/[28px] text-white mb-2;
+    }
+
+    h5 {
+      @apply text-[18px]/[22px] text-white mb-2;
+    }
+
+    h6 {
+      @apply text-[14px]/[18px] text-white mb-2;
+    }
+
+    p {
+      @apply text-white/85 mb-2;
+    }
+  }
