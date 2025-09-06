@@ -2,7 +2,7 @@ import './Header.css';
 
 function Header() {
     return (
-        <div className="eccent_header">
+        <div id="eccent-header" className="absolute top-0 left-0 w-[70px] md:w-[300px] h-full z-3">
             <ul>
                 <li key="nav-one">Home</li>
                 <li key="nav-two">About</li>

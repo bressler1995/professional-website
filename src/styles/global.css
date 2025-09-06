@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+    --color-global-bg: #111111;
+    --color-sidebar-bg: #EEEEEE;
+}
