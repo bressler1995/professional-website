@@ -2,7 +2,7 @@ import './UIHolder.css';
 
 function UIHolder({children}) {
     return (
-        <div className="eccent_ui_holder">
+        <div className="flex flex-row flex-wrap">
             {children}
         </div>
     );
