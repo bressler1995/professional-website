@@ -14,10 +14,10 @@ import "../styles/global.css";
 		<meta name="generator" content={Astro.generator} />
 		<title>Brian Ressler's Professional Website</title>
 	</head>
-	<body class="bg-global-bg">
+	<body>
 		<UIHolder>
-			<Header />
-			<PageContent>
+			<Header client:load/>
+			<PageContent client:load>
 				<slot />
 			</PageContent>
 		</UIHolder>

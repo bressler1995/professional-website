@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import './Header.css';
 
 function Header() {
@@ -8,6 +9,7 @@ function Header() {
                 <li key="nav-two">About</li>
                 <li key="nav-three">Contact</li>
             </ul>
+            <Button variant="outline">Contact</Button>
         </div>
     );
 }
